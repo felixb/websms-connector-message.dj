@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Felix Bechstein -->
+<!--
+                This file is part of WebSMS. This program is free software; you can 
+                redistribute it and/or modify it under the terms of the GNU General 
+                Public License as published by the Free Software Foundation; either 
+                version 3 of the License, or (at your option) any later version. 
+-->
+<!--
+                This program is distributed in the hope that it will be useful, but 
+                WITHOUT ANY WARRANTY; without even the implied warranty of 
+                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+                General Public License for more details. You should have received a 
+                copy of the GNU General Public License along with this program; If 
+                not, see <http://www.gnu.org/licenses/>. 
+-->
+<resources>
+
+    <string name="connector_preferences">Einstellungen - message.dj</string>
+    <string name="connector_enable">Aktiviere message.dj</string>
+    <string name="connector_create_account_hint">Neuen message.dj Account anlegen</string>
+    <string name="connector_appkey">AppKey</string>
+    <string name="connector_appkey_help_title">AppKey Hilfe</string>
+    <string name="connector_appkey_help">Deinen AppKEY findest du im Kundencenter von message.DJ und in deiner Registrierungs-eMail. Hast du noch keinen Account? Bitte anmelden.</string>
+    <string name="connector_sms_length">SMS Länge:</string>
+    <string name="connector_sms_length_hint">Aktuelle maximale Länge einer SMS</string>
+    <string name="connector_error_120">Guthaben nicht ausreichend</string>
+    <string name="connector_error_130">Falsche Datenübergabe</string>
+    <string name="connector_error_131">Nachrichtentext nicht korrekt</string>
+    <string name="connector_error_132">Absender nicht korrekt</string>
+    <string name="connector_error_133">Empfänger nicht korrekt</string>
+    <string name="connector_error_134">Empfängernummer ist zu kurz</string>
+    <string name="connector_error_135">Empfängernummer hat ein falsches Format (führendes +/00/0 fehlt) oder kein Heimatland angegeben</string>
+    <string name="connector_error_136">Vorwahl-Fehler: In das Land ist Momentan kein Versand möglich</string>
+    <string name="connector_error_137">Vorwahl-Fehler: Landesvorwahl nicht in der Liste</string>
+    <string name="connector_error_140">Ungültiger AppKey</string>
+    <string name="connector_error_174">SMS senden fehlgeschlagen. Bitte Postausgang für weitere Details prüfen.</string>
+    <string name="connector_error_175">Mindestens eine der SMS konnte nicht gesendet werden. Bitte Postausgang für weitere Details prüfen.</string>
+    <string name="connector_error_180">Schnittstellen Fehler. Bitte dringend Support (service@message.dj) kontaktieren.</string>
+    <string name="connector_error_404">Unbekannter Fehler. Bitte dringend Support (service@message.dj) kontaktieren.</string>
+
+</resources>

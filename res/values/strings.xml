@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Felix Bechstein -->
+<!--
+                This file is part of WebSMS. This program is free software; you can 
+                redistribute it and/or modify it under the terms of the GNU General 
+                Public License as published by the Free Software Foundation; either 
+                version 3 of the License, or (at your option) any later version. 
+-->
+<!--
+                This program is distributed in the hope that it will be useful, but 
+                WITHOUT ANY WARRANTY; without even the implied warranty of 
+                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+                General Public License for more details. You should have received a 
+                copy of the GNU General Public License along with this program; If 
+                not, see <http://www.gnu.org/licenses/>. 
+-->
+<resources>
+
+    <string name="app_name" translatable="false">WebSMS Connector: message.dj</string>
+    <string name="app_version" translatable="false">1.0</string>
+    <string name="connector_author" translatable="false">Felix Bechstein &lt;f@ub0r.de></string>
+    <string name="connector_name" translatable="false">message.dj</string>
+    <string name="connector_preferences">Preferences - message.dj</string>
+    <string name="connector_enable">Enable message.dj</string>
+    <string name="connector_create_account_hint">Create new message.dj account</string>
+    <string name="connector_create_account_url" translatable="false">http://message.dj/</string>
+    <string name="connector_appkey">AppKey</string>
+    <string name="connector_appkey_help_title">AppKey Help</string>
+    <string name="connector_appkey_help">You can find your AppKEY in your message.dj customer center and in your registration email. Do not have an account? Please register!</string>
+    <string name="connector_support" translatable="false">Support</string>
+    <string name="connector_support_hint" translatable="false">Kloppe Media\nmessage.dj\nPostfach 1444\n91536 Rothenburg\nGERMANY\n\nWeb: www.message.dj\nMail: service@message.dj\n\nSpecial thanks to Felix Bechstein, WebSMS</string>
+    <string name="connector_sms_length">SMS length:</string>
+    <string name="connector_sms_length_hint">Current maximum length of an SMS</string>
+    <string name="connector_error_120">Insufficient balance</string>
+    <string name="connector_error_130">Invalid data transmitted</string>
+    <string name="connector_error_131">Invalid text transmitted</string>
+    <string name="connector_error_132">Invalid sender transmitted</string>
+    <string name="connector_error_133">Invalid recipient transmitted</string>
+    <string name="connector_error_134">Recipient is to short</string>
+    <string name="connector_error_135">Invalid recipient format transmitted</string>
+    <string name="connector_error_136">No transport into target country possible</string>
+    <string name="connector_error_137">Unknown target country</string>
+    <string name="connector_error_140">Invalid AppKey</string>
+    <string name="connector_error_174">Sending failed, please check inbox on message.dj</string>
+    <string name="connector_error_175">Sending of at least one SMS failed, please check inbox on message.dj</string>
+    <string name="connector_error_180">Interface error. Please urgently contact support (service@message.dj).</string>
+    <string name="connector_error_404">Unknown error. Please urgently contact support (service@message.dj).</string>
+
+</resources>
