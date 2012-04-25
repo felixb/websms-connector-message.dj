@@ -16,17 +16,17 @@
 -->
 <resources>
 
-    <string name="app_name" translatable="false">WebSMS Connector: message.dj</string>
+    <string name="app_name" translatable="false">WebSMS Connector: message.DJ</string>
     <string name="app_version" translatable="false">1.0</string>
     <string name="connector_author" translatable="false">Felix Bechstein &lt;f@ub0r.de></string>
-    <string name="connector_name" translatable="false">message.dj</string>
-    <string name="connector_preferences">Preferences - message.dj</string>
-    <string name="connector_enable">Enable message.dj</string>
-    <string name="connector_create_account_hint">Create new message.dj account</string>
+    <string name="connector_name" translatable="false">message.DJ</string>
+    <string name="connector_preferences">Preferences - message.DJ</string>
+    <string name="connector_enable">Enable message.DJ</string>
+    <string name="connector_create_account_hint">Create new message.DJ account</string>
     <string name="connector_create_account_url" translatable="false">http://message.dj/</string>
     <string name="connector_appkey">AppKey</string>
     <string name="connector_appkey_help_title">AppKey Help</string>
-    <string name="connector_appkey_help">You can find your AppKEY in your message.dj customer center and in your registration email. Do not have an account? Please register!</string>
+    <string name="connector_appkey_help">You can find your AppKEY in your message.DJ customer center and in your registration email. Do not have an account? Please register!</string>
     <string name="connector_support" translatable="false">Support</string>
     <string name="connector_support_hint" translatable="false">Kloppe Media\nmessage.dj\nPostfach 1444\n91536 Rothenburg\nGERMANY\n\nWeb: www.message.dj\nMail: service@message.dj\n\nSpecial thanks to Felix Bechstein, WebSMS</string>
     <string name="connector_sms_length">SMS length:</string>
@@ -41,8 +41,8 @@
     <string name="connector_error_136">No transport into target country possible</string>
     <string name="connector_error_137">Unknown target country</string>
     <string name="connector_error_140">Invalid AppKey</string>
-    <string name="connector_error_174">Sending failed, please check inbox on message.dj</string>
-    <string name="connector_error_175">Sending of at least one SMS failed, please check inbox on message.dj</string>
+    <string name="connector_error_174">Sending failed, please check inbox on message.DJ</string>
+    <string name="connector_error_175">Sending of at least one SMS failed, please check inbox on message.DJ</string>
     <string name="connector_error_180">Interface error. Please urgently contact support (service@message.dj).</string>
     <string name="connector_error_404">Unknown error. Please urgently contact support (service@message.dj).</string>
 

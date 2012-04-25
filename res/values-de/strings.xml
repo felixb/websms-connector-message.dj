@@ -16,9 +16,9 @@
 -->
 <resources>
 
-    <string name="connector_preferences">Einstellungen - message.dj</string>
-    <string name="connector_enable">Aktiviere message.dj</string>
-    <string name="connector_create_account_hint">Neuen message.dj Account anlegen</string>
+    <string name="connector_preferences">Einstellungen - message.DJ</string>
+    <string name="connector_enable">Aktiviere message.DJ</string>
+    <string name="connector_create_account_hint">Neuen message.DJ Account anlegen</string>
     <string name="connector_appkey">AppKey</string>
     <string name="connector_appkey_help_title">AppKey Hilfe</string>
     <string name="connector_appkey_help">Deinen AppKEY findest du im Kundencenter von message.DJ und in deiner Registrierungs-eMail. Hast du noch keinen Account? Bitte anmelden.</string>

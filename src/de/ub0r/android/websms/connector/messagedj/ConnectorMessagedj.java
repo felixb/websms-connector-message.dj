@@ -234,7 +234,11 @@ public final class ConnectorMessagedj extends BasicConnector {
 						+ htmlText.trim().replaceAll("0*$", "")
 								.replaceAll("\\.$", "") + "\u20AC");
 			} else {
-				cs.setBalance(this.balance + htmlText.trim() + " Flat");
+				try {
+					checkReturnCode(context, Integer.parseInt(htmlText.trim()));
+				} catch (NumberFormatException e) {
+					throw new WebSMSException(context, R.string.error, " code: " + htmlText.trim());
+				}
 			}
 		} else if (command.getType() == ConnectorCommand.TYPE_SEND) {
 			if (TextUtils.isEmpty(htmlText)) {
