@@ -17,7 +17,7 @@
 <resources>
 
     <string name="app_name" translatable="false">WebSMS Connector: message.DJ</string>
-    <string name="app_version" translatable="false">1.0</string>
+    <string name="app_version" translatable="false">1.1</string>
     <string name="connector_author" translatable="false">Felix Bechstein &lt;f@ub0r.de></string>
     <string name="connector_name" translatable="false">message.DJ</string>
     <string name="connector_preferences">Preferences - message.DJ</string>
