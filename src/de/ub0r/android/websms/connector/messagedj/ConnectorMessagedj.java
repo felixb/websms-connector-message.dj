@@ -101,6 +101,11 @@ public final class ConnectorMessagedj extends BasicConnector {
 		return connectorSpec;
 	}
 
+	@Override
+	protected String getEncoding() {
+		return "UTF-8";
+	}
+
 	/**
 	 * Check return code from message.dj.
 	 * 
@@ -237,7 +242,8 @@ public final class ConnectorMessagedj extends BasicConnector {
 				try {
 					checkReturnCode(context, Integer.parseInt(htmlText.trim()));
 				} catch (NumberFormatException e) {
-					throw new WebSMSException(context, R.string.error, " code: " + htmlText.trim());
+					throw new WebSMSException(context, R.string.error,
+							" code: " + htmlText.trim());
 				}
 			}
 		} else if (command.getType() == ConnectorCommand.TYPE_SEND) {
